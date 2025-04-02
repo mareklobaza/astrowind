@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'DGTech.cloud rozwiązania dla biznesu',
   ignoreTitleTemplate: true,
 };
 ---
@@ -24,29 +24,20 @@ const metadata = {
   <Hero
     actions={[
       {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
+        text: 'Dowiedz się więcej...', href: '#features' },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 5.0</span> + Tailwind CSS
+      Rozwiązania IT dla biznesu
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
-        + Tailwind CSS.</span
+        Naszym celem jest wspieranie rozwoju indywidualnych przedsiębiorstw poprzez dostarczanie nowoczesnych, skalowalnych i bezpiecznych rozwiązań technologicznych.</span
       >
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      Nasze rozwiązania są dostosowane do potrzeb firm każdej wielkości i o celów.
     </Fragment>
   </Hero>
 
@@ -59,43 +50,43 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023 and 2024."
+    title="DGTech.cloud"
+    subtitle="Rozwiązania IT dla biznesu"
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Sprawdzona, otwarta platforma',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'Nasze rozwiązania opracowane są na sprawdzonej, otwartej platformie do zarządzania przedsiębiorstwem, z której codziennie korzystają setki tysiecy przedsiebiorców',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Wsparcie dla setek branż',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'Wspieramy handel i e-commerce, produkcja, logistyka i magazynowanie, usługi profesjonalne, budownictwo i nieruchomości, edukacja i szkolenia, opieka zdrowotna, turystyka i hotelarstwo i wiele wiecej',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'Nowoczesne technologie',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'Dzięki nowoczesnym rozwiązaniom umożliwiamy firmom pełną cyfryzację, optymalizację operacji i automatyzację procesów, wspierając rozwój w różnych branżach i dostosowując się do zmieniających się potrzeb rynkowych',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Infrastruktura jako serwis',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'Dzięki wsparciu nowoczesnych technologi,nasi klienci nie muszą martwić się o infrastrukture. Zapewniamy pełne wsparcie i operacyjność w naszej chmurze, z równoczesnym wsparciem wdrożenia w dowolnym miejscu.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Mobilność',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+          "Rozwiazanie zostało oparte na nowoczesnych technologiach, który zapewnia responsywność i wygodę obsługi na urządzeniach mobilnych. Obsługuje technologie Progressive Web App (PWA), co umożliwia korzystanie z aplikacji bez potrzeby instalacji",
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Sztuczna iteligencja',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Wspieramy analitykę biznesową (BI), zaawansowane raportowanie oraz machine learning, pomagając w podejmowaniu właściwych decyzji opartych na danych.',
         icon: 'tabler:bulb',
       },
     ]}
